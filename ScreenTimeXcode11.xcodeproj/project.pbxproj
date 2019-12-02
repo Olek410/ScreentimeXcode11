@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		DA38B5982388820C00F7F435 /* BasicGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGameViewController.swift; sourceTree = "<group>"; };
 		DA38B59A238885E500F7F435 /* BasicGameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGameTableViewCell.swift; sourceTree = "<group>"; };
-		DA968205235F95D700604078 /* ScreenTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA968205235F95D700604078 /* ScreenTimeXcode11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimeXcode11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA968208235F95D700604078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA96820D235F95D700604078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA96820F235F95D800604078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		DA968206235F95D700604078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA968205235F95D700604078 /* ScreenTime.app */,
+				DA968205235F95D700604078 /* ScreenTimeXcode11.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA968204235F95D700604078 /* ScreenTime */ = {
+		DA968204235F95D700604078 /* ScreenTimeXcode11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA96822D235F95D800604078 /* Build configuration list for PBXNativeTarget "ScreenTime" */;
+			buildConfigurationList = DA96822D235F95D800604078 /* Build configuration list for PBXNativeTarget "ScreenTimeXcode11" */;
 			buildPhases = (
 				DA968201235F95D700604078 /* Sources */,
 				DA968202235F95D700604078 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = ScreenTime;
+			name = ScreenTimeXcode11;
 			productName = ScreenTime;
-			productReference = DA968205235F95D700604078 /* ScreenTime.app */;
+			productReference = DA968205235F95D700604078 /* ScreenTimeXcode11.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA968200235F95D700604078 /* Build configuration list for PBXProject "ScreenTime" */;
+			buildConfigurationList = DA968200235F95D700604078 /* Build configuration list for PBXProject "ScreenTimeXcode11" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA968204235F95D700604078 /* ScreenTime */,
+				DA968204235F95D700604078 /* ScreenTimeXcode11 */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA968200235F95D700604078 /* Build configuration list for PBXProject "ScreenTime" */ = {
+		DA968200235F95D700604078 /* Build configuration list for PBXProject "ScreenTimeXcode11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA96822B235F95D800604078 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA96822D235F95D800604078 /* Build configuration list for PBXNativeTarget "ScreenTime" */ = {
+		DA96822D235F95D800604078 /* Build configuration list for PBXNativeTarget "ScreenTimeXcode11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA96822E235F95D800604078 /* Debug */,
