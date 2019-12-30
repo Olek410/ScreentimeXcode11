@@ -11,7 +11,7 @@ import UIKit
 
 
 //Creates new game object
-class Game{
+struct Game: Codable{
     
     var catagory: String //game catagory out of 4, card, strategy, outside, and dice
     var title: String //name of the game
@@ -51,3 +51,6 @@ class Game{
     }
     
 }
+
+
+

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/bigoof/Documents/GitHub/ScreentimeXcode11/ScreenTimeXcode11.xcodeproj">
+      location = "self:ScreenTime.xcodeproj">
    </FileRef>
 </Workspace>
