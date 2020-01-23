@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA968200235F95D700604078 /* Build configuration list for PBXProject "PlayOutlet" */;
+			buildConfigurationList = DA968200235F95D700604078 /* Build configuration list for PBXProject "PlayOutlet11" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -335,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RZAUWH5MN8;
 				INFOPLIST_FILE = ScreenTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RZAUWH5MN8;
 				INFOPLIST_FILE = ScreenTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA968200235F95D700604078 /* Build configuration list for PBXProject "PlayOutlet" */ = {
+		DA968200235F95D700604078 /* Build configuration list for PBXProject "PlayOutlet11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA96822B235F95D800604078 /* Debug */,
