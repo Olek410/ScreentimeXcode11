@@ -15,6 +15,7 @@ class GameDetalViewController: UIViewController {
     @IBOutlet weak var materialsInfo: UILabel!
     @IBOutlet weak var numberOfPlayers: UILabel!
     @IBOutlet weak var rulesInfo: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet var video: WKWebView!
     @IBOutlet weak var playButton: UIButton!
@@ -29,7 +30,23 @@ class GameDetalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        playButton.isHidden = false
+        //Show Image
+        if(overallCurrentGame.video == "" || overallCurrentGame.video == "https://apple.com"){
+            
+            playButton.isHidden = true
+            video.isHidden = true
+            imageView.isHidden = false
+            imageView.image = UIImage(named: overallCurrentGame.image)
+            print("Image: \(overallCurrentGame.image)")
+        }
+        //Show Video
+        else{
+            video.isHidden = false
+            playButton.isHidden = false
+            imageView.isHidden = true
+        }
+        
+        
         
         //sets webview url to game object video variable
         gameTitle.text = overallCurrentGame.title
